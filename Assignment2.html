@@ -1,0 +1,31 @@
+<script>
+
+var prviBroj = parseInt(prompt("Uneti prvi broj:"));
+var operacija = prompt("Uneti racunsku operaciju (+ - * ili /):");
+var drugiBroj = parseInt(prompt("Uneti drugi broj:"));
+
+if (operacija == "+") {
+    alert("Zbir brojeva " + prviBroj + " i " + drugiBroj + " je " + (prviBroj + drugiBroj));
+}
+    
+else if (operacija == "-") {
+    alert("Razlika brojeva " + prviBroj + " i " + drugiBroj + " je " + (prviBroj - drugiBroj));
+}    
+
+else if (operacija == "*") {
+    alert("Proizvod brojeva " + prviBroj + " i " + drugiBroj + " je " + (prviBroj * drugiBroj));
+}    
+
+else if (operacija == "/") {
+    if(drugiBroj != 0) {
+    alert("Kolicnik brojeva " + prviBroj + " i " + drugiBroj + " je " + (prviBroj / drugiBroj));
+    } else {
+        alert("Delilac ne moze biti 0.");
+    } 
+}
+    
+else {
+    alert("Uneti jednu od 4 navedene operacije.");
+}
+    
+</script>
