@@ -23,3 +23,12 @@
 .header-1 {
     font-weight: bold;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    justify-content: right;
+}

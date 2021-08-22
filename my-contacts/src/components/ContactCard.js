@@ -7,7 +7,7 @@ function ContactCard(props) {
         <div className="item">
             <div className="content">
                 <div className="header-1">{name}</div>
-                <div>{phone}</div>
+                <div className="number">{phone}</div>
             </div>
             <i className="fa fa-trash bin" onClick={() => props.clickHandler(id)} />
         </div>

@@ -10,9 +10,20 @@
     align-content: center;
     font-weight: bold;
     font-size: 25px;
+    align-items: center;
+    margin-top: 25vh;
 }
 
 .contacts {
     display: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
