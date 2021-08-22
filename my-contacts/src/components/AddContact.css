@@ -1,0 +1,55 @@
+.main {
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 30%;
+    padding: 5%;
+}
+
+label {
+    color: darkcrimson;
+}
+
+h2 {
+    text-align: center;
+}
+
+#add-c-title {
+    margin-bottom: 0;
+    color: white;
+}
+
+.form {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+input {
+    margin-bottom: 2%;
+    border-radius: 5%;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: white;
+}
+
+#submit-btn {
+    width: 100px;
+    background-color: transparent;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 5%;
+    color: white;
+    padding: 5px;
+}
+
+#submit-btn:hover {
+    border-color: magenta;
+    background-color: mediumvioletred;
+}
+
+label {
+    display: none;
+}

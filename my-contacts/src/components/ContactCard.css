@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    align-content:flex-start;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 5%;
+
+}
+
+.bin {
+    font-size: 30px;
+    align-content: center;
+    position: relative;
+    top: 5px;
+    padding-right: 5%;
+}
+
+.header-1 {
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+
+.clearing {
+    clear: both;
+}
+
+.no-contacts {
+    display: block;
+    color: white;
+    margin: 0 auto;
+    align-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contacts {
+    display: none;
+}
+
